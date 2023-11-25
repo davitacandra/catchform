@@ -1,0 +1,27 @@
+{
+  "name": "catchform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@types/node-fetch": "^2.6.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "fastify-formbody": "^5.3.0",
+    "node-fetch": "^2.7.0"
+  }
+}
