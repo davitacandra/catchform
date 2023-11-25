@@ -68,7 +68,6 @@ fastify.post<{ Body: googleFormResponse }>('/submit', async (request, reply) => 
       longitude: null,
       name: googleFormResponse['Nama Lengkap'],
       number_of_employees: googleFormResponse['Rencana Berlangganan Google Workspace Untuk Berapa User ?'],
-      owner: "0a473b60-81c1-48a3-8fa6-38be0be9a026",
       phones: googleFormResponse['Nomor Telepon'] ? [`+${googleFormResponse['Nomor Telepon']}`] : [],
       product_services: [],
       province: null,
